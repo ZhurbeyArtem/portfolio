@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+:root {
+  --black: #000;
+  --neutral: #404040;
+  --white: #fff;
+  --zinc100: #f4f4f5;
+  --zinc200: #e4e4e7;
+  --zinc300: #d4d4d8;
+  --zinc500: #71717a;
+  --zinc800: #27272a;
+  --error: #ef4444;
+}
+
+body {
+  color: var(--black);
+  background: var(--white);
+  font-family: "Sora", serif;
+  line-height: 24px;
+}
