@@ -21,3 +21,6 @@ body {
   font-family: "Sora", serif;
   line-height: 24px;
 }
+.text-stroke-3 {
+    -webkit-text-stroke: 1.4px black;
+}
